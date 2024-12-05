@@ -90,6 +90,7 @@
       "path": "^0.12.7",
       "pidusage": "^3.0.0",
       "ping-monitor": "^0.6.2",
+    	"pm2": "^5.2.2",
       "priyansh-fb-downloader": "^2.0.0",
       "priyansh-ig-downloader": "^2.0.2",
       "random-cat-img": "^1.0.4",
