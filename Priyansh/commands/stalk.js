@@ -43,7 +43,7 @@ var id = res.data.result
 */
 	let callback = function() {
             return api.sendMessage({
-                body:`•——[INFORMATION]——•\n\nName: ${name}\nFacebook URL: https://facebook.com/${username}\nUID: ${id}\n\n•——[INFORMATION]——•\n\nOwner Mian Amir `,
+                body:`•——[INFORMATION]——•\n\nName: ${name}\nFacebook URL: https://facebook.com/${username}\nUID: ${id}\n\n•——[INFORMATION]——•\n\nOwner RASHID`,
                 attachment: fs.createReadStream(__dirname + `/cache/image.png`)
             }, event.threadID, () => fs.unlinkSync(__dirname + `/cache/image.png`), event.messageID);
         };
