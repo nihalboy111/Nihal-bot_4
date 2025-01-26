@@ -105,7 +105,7 @@ module.exports.languages = {
 		"on": "on",
 		"off": "off",
 		"successText": "success notification rankup!",
-		"levelup": "{name}, your keyboard has reached level {level}",
+		"levelup": "{name}, your keyboard has reached level {level}\nOwner Rashid Ali",
 	}
 }
 
@@ -119,4 +119,4 @@ module.exports.run = async function({ api, event, Threads, getText }) {
 	await Threads.setData(threadID, { data });
 	global.data.threadData.set(threadID, data);
 	return api.sendMessage(`${(data["rankup"] == true) ? getText("on") : getText("off")} ${getText("successText")}`, threadID, messageID);
-                    }
+				     }
