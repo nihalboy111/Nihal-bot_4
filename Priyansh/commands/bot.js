@@ -487,7 +487,7 @@ if ((event.body.toLowerCase() == "sim miss you yr") || (event.body.toLowerCase()
 
   if (event.body.indexOf("bot") == 0 || (event.body.indexOf("Bot") == 0)) {
     var msg = {
-      body: `╔═════▓࿇࿇▓═════╗\n        ${name}\n╚═════▓࿇࿇▓═════╝\n\n●▬ൠൠ▬𝙊𝙬𝙣𝙚𝙧▬ൠൠ▬●\n\n◈━━━━━RASHID━━━━━◈\n${rand}\n◈━━━━━RASHID━━━━━◈`
+      body: `╔═════▓࿇࿇▓═════╗\n        ${name}\n╚═════▓࿇࿇▓═════╝\n\n●▬ൠൠ▬𝙊𝙬𝙣𝙚𝙧▬ൠൠ▬●\n\n◈━━━━━NIHAL━━━━━◈\n${rand}\n◈━━━━━Nihal━━━━━◈`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
